@@ -29,6 +29,6 @@
 见**code/train.py**
 ## 6推理
 见**code/infer.py**，
-**models/**
+**model/**
 下面是已经训练了一部分的模型，
 由于训练数据缺乏，效果一般，但可运行infer.py看一下前传效果
