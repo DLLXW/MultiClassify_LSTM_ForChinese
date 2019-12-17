@@ -1,11 +1,14 @@
 # LSTM中文文本进行情感多分类
 本项目主要是利用LSTM来对中文文本进行情感分类，包含四个类别（愤怒，焦虑，抑郁，伤感）
 更详细的解读移步：[知乎lim0](https://zhuanlan.zhihu.com/p/97745819)
+
 环境：
 - py3
 - keras
 - gensim
 - jieba
+
+
 ## 1 训练数据的准备
 参见上面的data/文件夹
 原始数据
@@ -25,4 +28,7 @@
 ## 5训练
 见**code/train.py**
 ## 6推理
-见**code/infer.py**
+见**code/infer.py**，
+**models/**
+下面是已经训练了一部分的模型，
+由于训练数据缺乏，效果一般，但可运行infer.py看一下前传效果
